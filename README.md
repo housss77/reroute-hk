@@ -46,7 +46,7 @@ By shifting from a static infrastructure model to ReRoute HK's dynamic Hub-and-S
 ---
 
 ## 📊 Open Data Sources
-This project integrates multiple public datasets to ensure analytical rigor:
+This project integrates multiple Hong Kong public datasets to ensure analytical rigor:
 * **2021 Population Census**
 * **Public Housing Database**
 * **Open Space Recycling Stations**
