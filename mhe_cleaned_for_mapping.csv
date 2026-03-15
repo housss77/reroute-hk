@@ -1,0 +1,541 @@
+﻿estate,estate_eng,estate_chi,age_5,t_pop,elderly_share,elder_dominant,time_label
+60047,Aberdeen Centre,香港仔中心,1884,8353,0.225547707,TRUE,morning
+60050,Aegean Coast,愛琴海岸,735,4182,0.175753228,FALSE,non-morning
+20001,Affluence Garden,澤豐花園,965,5893,0.163753606,FALSE,non-morning
+20002,Aldrich Garden,愛蝶灣,1700,8644,0.196668209,FALSE,non-morning
+60056,Allway Gardens,荃威花園,2067,8732,0.236715529,TRUE,morning
+60064,Amoy Gardens,淘大花園,1603,10791,0.148549717,FALSE,non-morning
+10001,Ap Lei Chau Estate,鴨脷洲邨,3488,11960,0.291638796,TRUE,morning
+60072,Aqua Marine,碧海藍天,402,4367,0.092054042,FALSE,non-morning
+60085,Avon Park,碧湖花園,331,2929,0.113007853,FALSE,non-morning
+60087,Baguio Villa,碧瑤灣,840,5339,0.157332834,FALSE,non-morning
+60094,Banyan Garden,泓景臺,335,6515,0.0514198,FALSE,non-morning
+20003,Bauhinia Garden,寶盈花園,1654,9255,0.178714209,FALSE,non-morning
+60106,Bayshore Towers,海柏花園,402,2963,0.135673304,),non-morning
+60111,Bayview Garden,灣景花園,600,3929,0.152710613,FALSE,non-morning
+60123,Bedford Gardens,百福花園,933,3950,0.236202532,TRUE,morning
+60126,Bel-Air,貝沙灣,1063,8795,0.120864127,FALSE,non-morning
+60128,Belair Gardens,富豪花園,1120,5680,0.197183099,FALSE,non-morning
+60129,Belair Monte,綠悠軒,556,4790,0.116075157,FALSE,non-morning
+60134,Bellagio,碧堤半島,1191,8970,0.13277592,FALSE,non-morning
+60145,Belvedere Garden,麗城花園,3666,18968,0.193272881,FALSE,non-morning
+20004,Beverly Garden,富康花園,1605,12038,0.133327795,FALSE,non-morning
+60173,Braemar Hill Mansion,賽西湖大廈,605,3045,0.198686371,FALSE,non-morning
+20005,Broadview Court,雅濤閣,891,4087,0.218008319,TRUE,morning
+40003,Broadview Garden,偉景花園,1519,5155,0.294665373,TRUE,morning
+10002,Butterfly Estate,蝴蝶邨,2793,10680,0.261516854,TRUE,morning
+20006,Carado Garden,雲疊花園,1434,5399,0.265604742,TRUE,morning
+60200,Caribbean Coast,映灣園,1983,13863,0.143042631,FALSE,non-morning
+60219,Castello,帝堡城,641,5191,0.123482951,FALSE,non-morning
+60227,Celestial Heights,半山壹號,316,3265,0.096784074,FALSE,non-morning
+60231,Central Park,帝柏海灣,436,3873,0.112574232,FALSE,non-morning
+60232,Central Park Towers,柏慧豪園,670,4369,0.15335317,FALSE,non-morning
+60233,Central Park Towers II,柏慧豪廷,341,2922,0.11670089,FALSE,non-morning
+62147,Century Gateway,瓏門,374,5067,0.073810933,FALSE,non-morning
+62202,Century Link,東環,423,4477,0.094482913,FALSE,non-morning
+10003,Chai Wan Estate,柴灣邨,957,3578,0.267467859,TRUE,morning
+10004,Chak On Estate,澤安邨,1181,3913,0.301814465,TRUE,morning
+20007,Charming Garden,富榮花園,2142,11335,0.18897221,FALSE,non-morning
+20008,Cheerful Garden,富怡花園,1421,5367,0.264766164,TRUE,morning
+60243,Chelsea Court,爵悅庭,362,4061,0.089140606,FALSE,non-morning
+60245,Chelsea Heights,卓爾居,431,4415,0.097621744,FALSE,non-morning
+20009,Cheong Shing Court,昌盛苑,430,3853,0.11160135,FALSE,non-morning
+10005,Cheung Ching Estate,長青邨,3648,13788,0.264577894,TRUE,morning
+10006,Cheung Fat Estate,長發邨,1402,6232,0.224967908,TRUE,morning
+10007,Cheung Hang Estate,長亨邨,3529,12878,0.274033235,TRUE,morning
+10008,Cheung Hong Estate,長康邨,6352,20387,0.311571099,TRUE,morning
+10205,Cheung Lung Wai Estate,祥龍圍邨,668,3344,0.199760766,FALSE,non-morning
+10010,Cheung On Estate,長安邨,5652,19391,0.291475427,TRUE,morning
+10206,Cheung Sha Wan Estate,長沙灣邨,687,3209,0.214085385,TRUE,morning
+10011,Cheung Shan Estate,象山邨,1487,5045,0.294747275,TRUE,morning
+10012,Cheung Wah Estate,祥華邨,3743,12633,0.296287501,TRUE,morning
+10013,Cheung Wang Estate,長宏邨,1940,11576,0.167588113,FALSE,non-morning
+20010,Cheung Wo Court,祥和苑,1322,4039,0.32730874,TRUE,morning
+20011,Chevalier Garden,富安花園,2474,10029,0.246684615,TRUE,morning
+60257,Chi Fu Fa Yuen,置富花園,2904,9813,0.295933965,TRUE,morning
+10014,Ching Ho Estate,清河邨,2849,18387,0.15494643,FALSE,non-morning
+20014,Ching Tai Court,青泰苑,1422,5984,0.23763369,TRUE,morning
+20015,Ching Wah Court,青華苑,1222,6313,0.193568826,FALSE,non-morning
+30001,Cho Yiu Chuen,祖堯邨,2727,6717,0.405984815,TRUE,morning
+10015,Choi Fai Estate,彩輝邨,1016,3923,0.25898547,TRUE,morning
+10016,Choi Fook Estate,彩福邨,1992,10775,0.18487239,FALSE,non-morning
+10017,Choi Ha Estate,彩霞邨,1640,5453,0.30075188,TRUE,morning
+20172,Choi Hing Court,彩興苑,571,3500,0.163142857,FALSE,non-morning
+10018,Choi Hung Estate,彩虹邨,5382,17817,0.302071056,TRUE,morning
+20017,Choi Ming Court,彩明苑,2474,14150,0.174840989,FALSE,non-morning
+20018,Choi Po Court,彩蒲苑,918,4745,0.193466807,FALSE,non-morning
+10019,Choi Tak Estate,彩德邨,2651,13588,0.195098616,FALSE,non-morning
+10020,Choi Wan (1) Estate,彩雲（１）邨,4364,16756,0.26044402,TRUE,morning
+10021,Choi Wan (2) Estate,彩雲（２）邨,2136,8485,0.251738362,TRUE,morning
+10022,Choi Ying Estate,彩盈邨,1768,9682,0.182606899,FALSE,non-morning
+10023,Choi Yuen Estate,彩園邨,3128,11696,0.26744186,TRUE,morning
+10024,Chuk Yuen North Estate,竹園北邨,5208,16989,0.306551298,TRUE,morning
+10025,Chuk Yuen South Estate,竹園南邨,3965,14147,0.280271436,TRUE,morning
+20019,Chun Man Court,俊民苑,1328,4929,0.269425847,TRUE,morning
+10026,Chun Shek Estate,秦石邨,1889,5212,0.362432847,TRUE,morning
+10223,Chun Yeung Estate,駿洋邨,1244,9834,0.126499898,FALSE,non-morning
+20020,Chung Ming Court,頌明苑,1221,4936,0.247366288,TRUE,morning
+20021,Chung Nga Court,頌雅苑,1146,5613,0.204168894,TRUE,morning
+10027,Chung On Estate,頌安邨,1636,8220,0.199026764,FALSE,non-morning
+60285,City Garden,城市花園,1931,7224,0.267303433,TRUE,morning
+60286,City One Shatin,沙田第一城,4528,23778,0.190428127,FALSE,non-morning
+62148,City Point,環宇海灣,502,5593,0.089755051,FALSE,non-morning
+40005,Clague Garden Estate,祈德尊新邨,1121,3507,0.319646421,TRUE,morning
+60287,Classical Gardens,新峰花園,561,4090,0.137163814,FALSE,non-morning
+60297,Coastal Skyline,藍天海岸,1207,7198,0.167685468,FALSE,non-morning
+60316,Cosmopolitan Estate,大同新邨,1250,5035,0.248262165,TRUE,morning
+62185,Cullinan West,匯璽,192,5276,0.036391205,FALSE,non-morning
+60330,Dawning Views,牽晴間,709,6500,0.109076923,FALSE,non-morning
+60337,Discovery Bay,愉景灣,1974,18585,0.106214689,FALSE,non-morning
+60338,Discovery Park,愉景新城,1402,8978,0.156159501,FALSE,non-morning
+62150,Double Cove,迎海,631,8958,0.07043983,FALSE,non-morning
+60362,East Point City,東港城,733,5757,0.127323259,FALSE,non-morning
+20022,Elegance Garden,富雅花園,677,3034,0.223137772,TRUE,morning
+60406,Fairview Park,錦綉花園,2673,14881,0.179625025,FALSE,non-morning
+60410,Fanling Centre,粉嶺中心,759,5146,0.147493199,FALSE,non-morning
+60412,Fanling Town Center,粉嶺名都,503,2904,0.173209366,FALSE,non-morning
+60421,Festival City,名城,821,14457,0.056789099,FALSE,non-morning
+60429,Flora Plaza,花都廣場,699,6622,0.105557233,FALSE,non-morning
+60454,Fortress Garden,富澤花園,754,3860,0.195336788,FALSE,non-morning
+10029,Fortune Estate,幸福邨,1390,4587,0.303030303,TRUE,morning
+10030,Fu Cheong Estate,富昌邨,3986,15655,0.254615139,TRUE,morning
+10031,Fu Heng Estate,富亨邨,3569,15393,0.231858637,TRUE,morning
+20025,Fu Keung Court,富強苑,990,3557,0.278324431,TRUE,morning
+20026,Fu Ning Garden,富寧花園,1730,6988,0.247567258,TRUE,morning
+10032,Fu Shan Estate,富山邨,1299,5572,0.233129935,TRUE,morning
+10033,Fu Shin Estate,富善邨,3985,13198,0.301939688,TRUE,morning
+10034,Fu Tai Estate,富泰邨,2462,16659,0.147787982,FALSE,non-morning
+10035,Fu Tung Estate,富東邨,941,5254,0.179101637,FALSE,non-morning
+10036,Fuk Loi Estate,福來邨,2086,6905,0.302099928,TRUE,morning
+20027,Fullview Garden,富景花園,1906,9175,0.20773842,TRUE,morning
+20029,Fung Shing Court,豐盛苑,1558,5950,0.261848739,TRUE,morning
+10037,Fung Tak Estate,鳳德邨,3136,12066,0.259903862,TRUE,morning
+10038,Fung Wah Estate,峰華邨,861,3303,0.260672116,TRUE,morning
+10207,Fung Wo Estate,豐和邨,810,3435,0.23580786,TRUE,morning
+60496,Galaxia,星河明居,468,4964,0.094278807,FALSE,non-morning
+60500,Garden Rivera,河畔花園,328,2624,0.125,FALSE,non-morning
+20031,Glorious Garden,富健花園,1809,9153,0.197640118,FALSE,non-morning
+60521,Golden Lion Garden Phase 1,金獅花園１期,374,2484,0.150563607,FALSE,non-morning
+60522,Golden Lion Garden Phase 2,金獅花園２期,478,3185,0.150078493,FALSE,non-morning
+60533,Goodview Garden,豐景園,245,2796,0.087625179,FALSE,non-morning
+60541,Grand Del Sol,朗晴居,262,3165,0.082780411,FALSE,non-morning
+60545,Grand Horizon,海欣花園,295,3372,0.087485172,FALSE,non-morning
+60547,Grand Promenade,嘉亨灣,416,4801,0.086648615,FALSE,non-morning
+20032,Grand View Garden,宏景花園,1051,6615,0.15888133,FALSE,non-morning
+60550,Grand Waterfront,翔龍灣,401,4400,0.091136364,FALSE,non-morning
+62193,Grand YOHO,Grand YOHO,278,4486,0.061970575,FALSE,non-morning
+10039,Grandeur Terrace,俊宏軒,1313,13755,0.095456198,FALSE,non-morning
+60586,Greenfield Garden,翠怡花園,839,7996,0.104927464,FALSE,non-morning
+20034,Greenwood Terrace,康翠臺,1493,6061,0.246328989,TRUE,morning
+60628,Hanford Garden,恒福花園,572,4444,0.128712871,FALSE,non-morning
+60643,Harbour Green,君滙港,285,3329,0.085611295,FALSE,non-morning
+60645,Harbour Place,海濱南岸,493,6704,0.073538186,FALSE,non-morning
+20037,Harmony Garden,富欣花園,1440,6697,0.215021651,TRUE,morning
+10040,Hau Tak Estate,厚德邨,2905,12491,0.232567449,TRUE,morning
+60658,Healthy Gardens,健威花園,663,2532,0.261848341,TRUE,morning
+30003,Healthy Village,健康村,1673,5278,0.316976127,TRUE,morning
+60667,Heng Fa Chuen,杏花邨,3674,17963,0.204531537,TRUE,morning
+10041,Heng On Estate,恒安邨,5195,15791,0.328984865,TRUE,morning
+40008,Highland Park,浩景臺,471,4303,0.109458517,FALSE,non-morning
+10043,Hin Keng Estate,顯徑邨,4619,15216,0.30356204,TRUE,morning
+10045,Hing Man Estate,興民邨,1539,5990,0.256928214,TRUE,morning
+10046,Hing Tin Estate,興田邨,2285,6467,0.353332302,TRUE,morning
+10047,Hing Tung Estate,興東邨,1644,6076,0.270572745,TRUE,morning
+10048,Hing Wah (1) Estate,興華（１）邨,1565,6403,0.24441668,TRUE,morning
+10049,Hing Wah (2) Estate,興華（２）邨,2180,7936,0.274697581,TRUE,morning
+20038,Hiu Lai Court,曉麗苑,2807,13786,0.20361236,TRUE,morning
+10050,Ho Man Tin Estate,何文田邨,3252,12329,0.263768351,TRUE,morning
+10051,Hoi Fu Court,海富苑,2186,9540,0.229140461,TRUE,morning
+10052,Hoi Lai Estate,海麗邨,2824,16071,0.175720241,FALSE,non-morning
+20171,Hoi Lok Court,凱樂苑,1263,7247,0.174279012,FALSE,non-morning
+10226,Hoi Tat Estate,海達邨,413,3415,0.120937042,FALSE,non-morning
+10218,Hoi Ying Estate,海盈邨,494,3444,0.143437863,FALSE,non-morning
+60735,Hong Kong Garden,豪景花園,1488,7678,0.193800469,FALSE,non-morning
+60736,Hong Kong Gold Coast,香港黃金海岸,606,4603,0.13165327,FALSE,non-morning
+20041,Hong Lam Court,康林苑,658,2976,0.221102151,TRUE,morning
+60743,Hong Lok Yuen,康樂園,670,4694,0.142735407,FALSE,non-morning
+20042,Hong Nga Court,康雅苑,1207,4971,0.242808288,TRUE,morning
+20043,Hong Pak Court,康柏苑,1419,6353,0.223359043,TRUE,morning
+20044,Hong Sing Garden,康盛花園,1102,5200,0.211923077,TRUE,morning
+20046,Hong Wah Court,康華苑,652,3904,0.167008197,FALSE,non-morning
+20047,Hong Yat Court,康逸苑,820,4839,0.169456499,FALSE,non-morning
+10208,Hung Fuk Estate,洪福邨,1445,11771,0.122759324,FALSE,non-morning
+10054,Hung Hom Estate,紅磡邨,1766,6744,0.261862396,TRUE,morning
+62215,I-Feng Mansion,益豐大廈,498,3249,0.153277932,FALSE,non-morning
+60780,Island Harbourview,維港灣,870,6236,0.139512508,FALSE,non-morning
+60783,Island Resort,藍灣半島,1137,9025,0.12598338,FALSE,non-morning
+30004,Jat Min Chuen,乙明邨,3541,9424,0.375742784,TRUE,morning
+60815,Jubilee Garden,銀禧花園,708,5781,0.122470161,FALSE,non-morning
+10055,Ka Fuk Estate,嘉福邨,1166,5939,0.196329348,FALSE,non-morning
+20051,Ka Lung Court,嘉隆苑,1137,3906,0.29109063,TRUE,morning
+20052,Ka Shing Court,嘉盛苑,1286,6633,0.193879089,FALSE,non-morning
+20053,Ka Tin Court,嘉田苑,576,4690,0.122814499,FALSE,non-morning
+30005,Ka Wai Chuen,家維邨,1982,6634,0.298763943,TRUE,morning
+10209,Kai Ching Estate,啟晴邨,1843,11876,0.155186932,FALSE,non-morning
+40009,Kai Tak Garden,啟德花園,1029,3928,0.261965377,TRUE,morning
+10056,Kai Tin Estate,啟田邨,1483,5866,0.25281282,TRUE,morning
+20055,Kai Tsui Court,佳翠苑,687,3379,0.20331459,TRUE,morning
+10057,Kai Yip Estate,啟業邨,2716,8869,0.306235201,TRUE,morning
+20056,Kam Fung Court,錦豐苑,2946,15368,0.191697033,FALSE,non-morning
+20058,Kam Lung Court,錦龍苑,780,3989,0.195537729,FALSE,non-morning
+20060,Kam Tai Court,錦泰苑,2248,10074,0.2231487,TRUE,morning
+20061,Kam Ying Court,錦英苑,2305,9561,0.241083569,TRUE,morning
+10059,Kin Ming Estate,健明邨,2729,19190,0.142209484,FALSE,non-morning
+10060,Kin Sang Estate,建生邨,1774,7242,0.244959956,TRUE,morning
+10061,King Lam Estate,景林邨,3524,13144,0.268107121,TRUE,morning
+20065,King Shan Court,瓊山苑,1163,3999,0.290822706,TRUE,morning
+20066,King Shing Court,景盛苑,1224,6870,0.178165939,FALSE,non-morning
+20067,King Tin Court,景田苑,946,3541,0.267156171,TRUE,morning
+20068,Kingsford Terrace,嘉峰臺,1019,5698,0.178834679,FALSE,non-morning
+40010,Kingston Terrace,景新臺,441,3330,0.132432432,FALSE,non-morning
+60895,Kingswood Villas,嘉湖山莊,6876,40177,0.171142694,FALSE,non-morning
+10062,Ko Cheung Court,高翔苑,1052,6419,0.163888456,FALSE,non-morning
+20069,Ko Chun Court,高俊苑,846,4432,0.190884477,FALSE,non-morning
+10063,Ko Yee Estate,高怡邨,1023,3185,0.321193093,TRUE,morning
+60911,Kornhill,康怡花園,3752,17636,0.212746655,TRUE,morning
+20070,Kornhill Gardens,康山花園,1320,5619,0.234917245,TRUE,morning
+20071,Kwai Chun Court,葵俊苑,768,3120,0.246153846,TRUE,morning
+10064,Kwai Chung Estate,葵涌邨,5778,34532,0.167323063,FALSE,non-morning
+10065,Kwai Fong Estate,葵芳邨,4203,17136,0.245273109,TRUE,morning
+10066,Kwai Hing Estate,葵興邨,1183,3444,0.343495935,TRUE,morning
+10067,Kwai Luen Estate,葵聯邨,909,7409,0.122688622,FALSE,non-morning
+10068,Kwai Shing East Estate,葵盛東邨,4411,16983,0.259730319,TRUE,morning
+10069,Kwai Shing West Estate,葵盛西邨,3406,13574,0.250920878,TRUE,morning
+10070,Kwong Fuk Estate,廣福邨,4900,16075,0.304821151,TRUE,morning
+20074,Kwong Lam Court,廣林苑,1183,4976,0.237741158,TRUE,morning
+20075,Kwong Ming Court,廣明苑,2460,12027,0.204539785,TRUE,morning
+10071,Kwong Tin Estate,廣田邨,1970,7165,0.274947662,TRUE,morning
+10072,Kwong Yuen Estate,廣源邨,3167,11612,0.272735102,TRUE,morning
+30006,Kwun Lung Lau,觀龍樓,1291,6156,0.2097141,TRUE,morning
+30007,Kwun Tong Garden Estate,觀塘花園大廈,3526,11801,0.298788238,TRUE,morning
+60947,La Cite Noble,新寶城,617,5470,0.112797075,FALSE,non-morning
+60959,Laguna City,麗港城,3340,22319,0.149648282,FALSE,non-morning
+60960,Laguna Verde,海逸豪園,1602,12664,0.126500316,FALSE,non-morning
+10073,Lai King Estate,荔景邨,3317,10530,0.315004748,TRUE,morning
+10074,Lai Kok Estate,麗閣邨,2227,6200,0.359193548,TRUE,morning
+10075,Lai On Estate,麗安邨,983,3534,0.278155065,TRUE,morning
+30008,Lai Tak Tsuen,勵德邨,2199,6211,0.354049267,TRUE,morning
+20170,Lai Tsui Court,麗翠苑,1819,10438,0.174267101,FALSE,non-morning
+20077,Lai Yan Court,荔欣苑,882,5526,0.159609121,FALSE,non-morning
+10076,Lai Yiu Estate,麗瑤邨,1945,7925,0.245425868,TRUE,morning
+60970,Lake Silver,銀湖‧天峰,566,6438,0.087915502,FALSE,non-morning
+10077,Lam Tin Estate,藍田邨,1360,7907,0.171999494,FALSE,non-morning
+10078,Lee On Estate,利安邨,2210,10522,0.210036115,TRUE,morning
+10079,Lei Cheng Uk Estate,李鄭屋邨,3244,11259,0.288125056,TRUE,morning
+60992,Lei King Wan,鯉景灣,1191,6389,0.186414149,FALSE,non-morning
+10080,Lei Muk Shue (1) Estate,梨木樹（１）邨,1605,6579,0.243958048,TRUE,morning
+10081,Lei Muk Shue (2) Estate,梨木樹（２）邨,2938,11895,0.246994536,TRUE,morning
+10082,Lei Muk Shue Estate,梨木樹邨,1559,9271,0.168158775,FALSE,non-morning
+20078,Lei On Court,鯉安苑,903,4909,0.183947851,FALSE,non-morning
+10083,Lei Tung Estate,利東邨,5805,18575,0.312516824,TRUE,morning
+10084,Lei Yue Mun Estate,鯉魚門邨,2053,9662,0.212481888,TRUE,morning
+10085,Lek Yuen Estate,瀝源邨,2366,7866,0.300788202,TRUE,morning
+10086,Leung King Estate,良景邨,3780,17404,0.21719145,TRUE,morning
+61000,Liberte,昇悅居,449,6009,0.074721251,FALSE,non-morning
+61001,Lido Garden,麗都花園,559,3932,0.142166836,FALSE,non-morning
+62201,LOHAS Park - LP6,日出康城－LP6,475,5081,0.093485534,FALSE,non-morning
+62199,LOHAS Park - Malibu,日出康城－Malibu,195,3826,0.050967067,FALSE,non-morning
+61010,"LOHAS Park - The Capitol, Le Prestige, Le Prime, La Splendeur, Hemera",日出康城－首都、領都、領峰、領凱、緻藍天,2608,25273,0.103193131,FALSE,non-morning
+62200,LOHAS Park - Wings at Sea,日出康城－晉海,276,5085,0.054277286,FALSE,non-morning
+10087,Lok Fu Estate,樂富邨,2700,9944,0.271520515,TRUE,morning
+20079,Lok Hin Terrace,樂軒臺,1038,4425,0.234576271,TRUE,morning
+30009,Lok Man Sun Chuen,樂民新村,3133,8696,0.360280589,TRUE,morning
+20080,Lok Nga Court,樂雅苑,823,3179,0.258886442,TRUE,morning
+10088,Lok Wah North Estate,樂華北邨,2400,8499,0.282386163,TRUE,morning
+10089,Lok Wah South Estate,樂華南邨,5438,13258,0.410167446,TRUE,morning
+10091,Long Ping Estate,朗屏邨,4820,21864,0.220453714,TRUE,morning
+10221,Long Shin Estate,朗善邨,337,3086,0.109202852,FALSE,non-morning
+10210,Lower Ngau Tau Kok Estate,牛頭角下邨,2026,11426,0.177314896,FALSE,non-morning
+10092,Lower Wong Tai Sin (1) Estate,黃大仙下（１）邨,3084,11295,0.273041169,TRUE,morning
+10093,Lower Wong Tai Sin (2) Estate,黃大仙下（２）邨,4500,18247,0.246615882,TRUE,morning
+61024,Lucky Plaza,好運中心,560,3401,0.164657454,FALSE,non-morning
+61031,Luk Yeung Sun Chuen,綠楊新邨,2144,10420,0.205758157,TRUE,morning
+10094,Lung Hang Estate,隆亨邨,3669,12170,0.301479047,TRUE,morning
+20082,Lung Mun Oasis,龍門居,2378,10911,0.217945193,TRUE,morning
+20083,Lung Poon Court,龍蟠苑,1870,8550,0.21871345,TRUE,morning
+10097,Ma Tau Wai Estate,馬頭圍邨,1524,4942,0.308377175,TRUE,morning
+61082,Manhattan Hill,曼克頓山,342,3140,0.108917197,FALSE,non-morning
+62186,Mantin Heights,皓畋,185,3189,0.058011916,FALSE,non-morning
+20086,May Shing Court,美城苑,1534,5211,0.294377279,TRUE,morning
+61101,Mayfair Gardens,美景花園,589,4915,0.119837233,FALSE,non-morning
+20087,Mei Chung Court,美松苑,1280,5239,0.244321435,TRUE,morning
+61107,Mei Foo Sun Chuen,美孚新邨,9606,37299,0.257540417,TRUE,morning
+62214,Mei King Mansion,美景樓,651,3421,0.190295235,FALSE,non-morning
+10098,Mei Lam Estate,美林邨,2962,9834,0.301199919,TRUE,morning
+10099,Mei Tin Estate,美田邨,2603,17254,0.150863568,FALSE,non-morning
+10100,Mei Tung Estate,美東邨,871,4411,0.197460893,FALSE,non-morning
+20088,Melody Garden,美樂花園,1149,6383,0.1800094,FALSE,non-morning
+61120,Metro City,新都城,2295,18347,0.12508857,FALSE,non-morning
+61121,Metro Harbour View,港灣豪庭,837,7887,0.106124002,FALSE,non-morning
+61122,Metro Town,都會駅,1308,11139,0.117425263,FALSE,non-morning
+61123,Metropole Building,新都城大廈,715,2980,0.239932886,TRUE,morning
+61125,Miami Beach Towers,邁亞美海灣,591,3106,0.190276883,FALSE,non-morning
+20089,Ming Nga Court,明雅苑,807,4258,0.189525599,FALSE,non-morning
+10101,Ming Tak Estate,明德邨,1023,4212,0.242877493,TRUE,morning
+30010,Ming Wah Dai Ha,明華大廈,1951,5299,0.368182676,TRUE,morning
+62158,Mont Vert,嵐山,246,4091,0.060131997,FALSE,non-morning
+61145,Monte Vista,翠擁華庭,676,5055,0.133728981,FALSE,non-morning
+61163,Mountain Shore,曉峯灣畔,418,3066,0.136333986,FALSE,non-morning
+10224,Mun Tung Estate,滿東邨,727,11032,0.065899202,FALSE,non-morning
+10103,Nam Cheong Estate,南昌邨,1353,4684,0.288855679,TRUE,morning
+10104,Nam Shan Estate,南山邨,1778,6208,0.286404639,TRUE,morning
+61178,Nan Fung Plaza,南豐廣場,743,4620,0.160822511,FALSE,non-morning
+61179,Nan Fung Sun Chuen,南豐新邨,2041,6877,0.296786389,TRUE,morning
+61182,Nerine Cove,南浪海灣,383,3425,0.111824818,FALSE,non-morning
+61185,New Jade Garden,新翠花園,772,4440,0.173873874,FALSE,non-morning
+61186,New Kwai Fong Gardens,新葵芳花園,427,2914,0.146533974,FALSE,non-morning
+20091,Ning Fung Court,寧峰苑,780,4090,0.190709046,FALSE,non-morning
+62188,Ocean Pride,海之戀,408,6161,0.066223016,FALSE,non-morning
+61213,Ocean Shores,維景灣畔,1786,14232,0.125491849,FALSE,non-morning
+61218,Oceanaire,天宇海,260,3936,0.066056911,FALSE,non-morning
+10107,Oi Man Estate,愛民邨,5774,17407,0.331705636,TRUE,morning
+10108,Oi Tung Estate,愛東邨,2968,9128,0.325153374,TRUE,morning
+20094,On Ning Garden,安寧花園,1409,6662,0.211498049,TRUE,morning
+10219,On Tai Estate,安泰邨,2538,24618,0.103095296,FALSE,non-morning
+10212,On Tat Estate,安達邨,3763,23341,0.161218457,FALSE,non-morning
+10110,On Ting Estate,安定邨,3097,11285,0.274435091,TRUE,morning
+61231,On Wo Yuen,安和園,703,2781,0.252786767,TRUE,morning
+10111,On Yam Estate,安蔭邨,4068,15955,0.254967095,TRUE,morning
+62204,One Kai Tak,啟德１號,232,2777,0.083543392,FALSE,non-morning
+61240,Oscar By The Sea,清水灣半島,624,5290,0.117958412,FALSE,non-morning
+10112,Pak Tin Estate,白田邨,4479,16843,0.265926498,TRUE,morning
+61275,Parc Oasis,又一居,451,5005,0.09010989,FALSE,non-morning
+61281,Park Avenue,柏景灣,521,4651,0.112018921,FALSE,non-morning
+61282,Park Central,將軍澳中心,1578,11971,0.131818562,FALSE,non-morning
+61285,Park Island,珀麗灣,1472,12370,0.118997575,FALSE,non-morning
+62162,Park Signature,溱柏,296,4134,0.071601355,FALSE,non-morning
+62203,Park Vista,峻巒,444,5871,0.075625958,FALSE,non-morning
+61293,Parkland Villas,叠茵庭,241,3740,0.064438503,FALSE,non-morning
+61328,Pictorial Garden,碧濤花園,885,5732,0.154396371,FALSE,non-morning
+61329,Pierhead Garden,海翠花園,497,4262,0.116611919,FALSE,non-morning
+10113,Ping Shek Estate,坪石邨,3398,11985,0.283521068,TRUE,morning
+10114,Ping Tin Estate,平田邨,3595,14753,0.243679252,TRUE,morning
+20173,Ping Yan Court,屏欣苑,445,6623,0.067190095,FALSE,non-morning
+10115,Po Lam Estate,寶林邨,3518,13856,0.253897229,TRUE,morning
+20097,Po Ming Court,寶明苑,735,4063,0.180900812,FALSE,non-morning
+20098,Po Nga Court,寶雅苑,1437,6716,0.213966647,TRUE,morning
+20099,Po Pui Court,寶佩苑,1401,4950,0.283030303,TRUE,morning
+10222,Po Shek Wu Estate,寶石湖邨,271,3141,0.086278255,FALSE,non-morning
+10116,Po Tat Estate,寶達邨,4665,22319,0.209014741,TRUE,morning
+10117,Po Tin Estate,寶田邨,2308,10749,0.214717648,TRUE,morning
+10118,Pok Hong Estate,博康邨,4684,13996,0.334667048,TRUE,morning
+61363,Pokfulam Gardens,薄扶林花園,598,3005,0.199001664,FALSE,non-morning
+20100,Prime View Garden,景峰花園,788,4075,0.193374233,FALSE,non-morning
+61378,Prosperous Garden,駿發花園,1024,4090,0.250366748,TRUE,morning
+62164,Providence Bay,天賦海灣,211,3574,0.059037493,FALSE,non-morning
+61379,Provident Centre,和富中心,1172,4873,0.240508927,TRUE,morning
+61383,Queen's Terrace,帝后華庭,290,2573,0.1127089,FALSE,non-morning
+61387,Rambler Crest,藍澄灣,286,4393,0.065103574,FALSE,non-morning
+61388,Ravana Garden,濱景花園,545,3034,0.17963085,FALSE,non-morning
+61412,Residence Oasis,蔚藍灣畔,751,5560,0.135071942,FALSE,non-morning
+61414,Rhine Garden,海韻花園,566,3201,0.176819744,FALSE,non-morning
+20101,Rhythm Garden,采頤花園,1773,8980,0.197438753,FALSE,non-morning
+20102,Richland Gardens,麗晶花園,3300,14586,0.226244344,TRUE,morning
+61425,Riviera Gardens,海濱花園,2592,16474,0.157338837,FALSE,non-morning
+61445,Royal Ascot,駿景園,1293,7951,0.162621054,FALSE,non-morning
+61457,Royal Peninsula,半島豪庭,526,4396,0.119654231,FALSE,non-morning
+20103,Saddle Ridge Garden,富寶花園,2800,11422,0.245140956,TRUE,morning
+10120,Sam Shing Estate,三聖邨,943,4504,0.209369449,TRUE,morning
+20104,San Wai Court,新圍苑,1377,5477,0.251415008,TRUE,morning
+10121,Sau Mau Ping Estate,秀茂坪邨,8521,35277,0.241545483,TRUE,morning
+10122,Sau Mau Ping South Estate,秀茂坪南邨,1707,9645,0.176982893,FALSE,non-morning
+61484,Sausalito,嵐岸,261,3028,0.086195509,FALSE,non-morning
+61490,Sceneway Garden,滙景花園,1822,12357,0.147446791,FALSE,non-morning
+61504,Sea Crest Villa,浪翠園,676,4800,0.140833333,FALSE,non-morning
+61514,Seaview Crescent,海堤灣畔,534,3618,0.147595357,FALSE,non-morning
+61526,Serenity Park,太湖花園,549,5982,0.091775326,FALSE,non-morning
+61527,Serenity Place,怡沁園,411,4570,0.089934354,FALSE,non-morning
+61528,Sereno Verde,蝶翠峰,607,5518,0.110003625,FALSE,non-morning
+10123,Sha Kok Estate,沙角邨,4599,14007,0.328335832,TRUE,morning
+61533,Sha Tin Centre,沙田中心,517,2693,0.191979205,FALSE,non-morning
+10124,Shan King Estate,山景邨,4915,19584,0.25097018,TRUE,morning
+61546,Shatin Park,花園城,432,2734,0.158010241,FALSE,non-morning
+10125,Shatin Pass Estate,沙田坳邨,422,3063,0.137773425,FALSE,non-morning
+10126,Shek Kip Mei Estate,石硤尾邨,5297,25561,0.207229764,TRUE,morning
+10127,Shek Lei (1) Estate,石籬（１）邨,3166,12463,0.254031935,TRUE,morning
+10128,Shek Lei (2) Estate,石籬（２）邨,4256,23463,0.181391979,FALSE,non-morning
+10129,Shek Mun Estate,碩門邨,1548,13135,0.117853064,FALSE,non-morning
+10130,Shek Pai Wan Estate,石排灣邨,3930,14927,0.263281302,TRUE,morning
+10131,Shek Wai Kok Estate,石圍角邨,4715,15649,0.301297207,TRUE,morning
+10132,Shek Yam East Estate,石蔭東邨,1369,6166,0.222024003,TRUE,morning
+10133,Shek Yam Estate,石蔭邨,1851,7904,0.234185223,TRUE,morning
+10135,Sheung Tak Estate,尚德邨,3244,16932,0.191589889,FALSE,non-morning
+10136,Shin Ming Estate,善明邨,941,3987,0.236017055,TRUE,morning
+10213,Shui Chuen O Estate,水泉澳邨,3825,28927,0.132229405,FALSE,non-morning
+10137,Shui Pin Wai Estate,水邊圍邨,1453,5710,0.254465849,TRUE,morning
+20107,Shun Chi Court,順緻苑,1002,3947,0.253863694,TRUE,morning
+10138,Shun Lee Estate,順利邨,3317,11404,0.290862855,TRUE,morning
+10139,Shun On Estate,順安邨,2220,6991,0.317551137,TRUE,morning
+10140,Shun Tin Estate,順天邨,5238,17926,0.292201272,TRUE,morning
+20108,Siu Hei Court,兆禧苑,1462,6193,0.236072986,TRUE,morning
+20109,Siu Hin Court,兆軒苑,675,3305,0.204236006,TRUE,morning
+20110,Siu Hong Court,兆康苑,2719,11311,0.240385465,TRUE,morning
+20111,Siu Kwai Court,兆畦苑,868,3817,0.22740372,TRUE,morning
+20112,Siu Lun Court,兆麟苑,2738,11557,0.236912694,TRUE,morning
+20113,Siu On Court,兆安苑,724,3452,0.209733488,TRUE,morning
+10141,Siu Sai Wan Estate,小西灣邨,4859,18803,0.25841621,TRUE,morning
+20114,Siu Shan Court,兆山苑,1348,4629,0.291207604,TRUE,morning
+61607,Sky Tower,傲雲峰,474,5678,0.083480099,FALSE,non-morning
+10142,So Uk Estate,蘇屋邨,2652,18748,0.141455089,FALSE,non-morning
+61616,Sorrento,擎天半島,735,5802,0.126680455,FALSE,non-morning
+61622,South Horizons,海怡半島,4823,29180,0.165284441,FALSE,non-morning
+20115,South Wave Court,南濤閣,910,2939,0.309629126,TRUE,morning
+62195,St Martin,雲滙,176,2595,0.067822736,FALSE,non-morning
+20116,Sui Wo Court,穗禾苑,2083,8607,0.242012316,TRUE,morning
+61651,Summit Terrace,翠豐臺,241,3370,0.071513353,FALSE,non-morning
+10143,Sun Chui Estate,新翠邨,5448,17081,0.318950881,TRUE,morning
+20117,Sun Hing Garden,新興花園,698,3874,0.180175529,FALSE,non-morning
+10144,Sun Tin Wai Estate,新田圍邨,2881,8885,0.324254361,TRUE,morning
+61660,Sun Tuen Mun Centre,新屯門中心,1429,9216,0.155056424,FALSE,non-morning
+61662,Sun Yuen Long Centre,新元朗中心,369,2562,0.144028103,FALSE,non-morning
+61668,Sunshine City,新港城,1688,11742,0.143757452,FALSE,non-morning
+61678,Symphony Bay,帝琴灣,411,3377,0.121705656,FALSE,non-morning
+61687,Tai Hang Sai Estate,大坑西邨,793,2567,0.308920919,TRUE,morning
+10145,Tai Hang Tung Estate,大坑東邨,1470,4696,0.313032368,TRUE,morning
+10146,Tai Hing Estate,大興邨,5088,18698,0.272114665,TRUE,morning
+61690,Tai Hing Gardens,大興花園,1223,9732,0.1256679,FALSE,non-morning
+62146,Tai On Building,太安樓,1205,4561,0.264196448,TRUE,morning
+10147,Tai Ping Estate,太平邨,827,3988,0.207372116,TRUE,morning
+61699,Tai Po Centre,大埔中心,1339,9375,0.142826667,FALSE,non-morning
+20120,Tai Po Plaza,大埔廣場,788,3655,0.215595075,TRUE,morning
+10148,Tai Wo Estate,太和邨,4453,18439,0.241498997,TRUE,morning
+10149,Tai Wo Hau Estate,大窩口邨,4757,20124,0.236384417,TRUE,morning
+10150,Tai Yuen Estate,大元邨,3559,13614,0.261422066,TRUE,morning
+61716,Taikoo Shing,太古城,7824,34799,0.224834047,TRUE,morning
+61718,Tak Bo Garden,得寶花園,490,3476,0.140966628,FALSE,non-morning
+10214,Tak Long Estate,德朗邨,3227,18720,0.172382479,FALSE,non-morning
+10151,Tak Tin Estate,德田邨,3968,13612,0.291507493,TRUE,morning
+61730,Telford Gardens,德福花園,2004,13142,0.152488206,FALSE,non-morning
+62170,The Beaumount,峻瀅,704,7361,0.095639179,FALSE,non-morning
+61742,The Belcher's,寶翠園,583,7265,0.080247763,FALSE,non-morning
+61765,The Grandiose,君傲灣,366,3773,0.097005036,FALSE,non-morning
+62196,The Horizon,海日灣,247,3232,0.076423267,FALSE,non-morning
+61776,The Latitude,譽‧港灣,246,3264,0.075367647,FALSE,non-morning
+61780,The Long Beach,浪澄灣,319,4472,0.071332737,FALSE,non-morning
+61782,The Merton,泓都,413,2474,0.166936136,FALSE,non-morning
+61788,The Pacifica,宇晴軒,357,5604,0.063704497,FALSE,non-morning
+61789,The Palazzo,御龍山,407,3919,0.103853024,FALSE,non-morning
+61792,The Parcville,采葉庭,511,4254,0.120122238,FALSE,non-morning
+40016,The Pinnacle,叠翠軒,314,4293,0.073142325,FALSE,non-morning
+62175,The Reach,尚悅,395,5538,0.071325388,FALSE,non-morning
+62198,The Regent,天鑽,144,2888,0.049861496,FALSE,non-morning
+61801,The Sherwood,豫豐花園,401,3778,0.106140815,FALSE,non-morning
+61806,The Trend Plaza,時代廣場,506,2834,0.178546224,FALSE,non-morning
+62178,The Visionary,昇薈,178,3575,0.04979021,FALSE,non-morning
+61812,The Waterfront,漾日居,421,4002,0.105197401,FALSE,non-morning
+62179,The Wings,天晉,818,10173,0.080408926,FALSE,non-morning
+61817,Tierra Verde,盈翠半島,1241,9057,0.137021089,FALSE,non-morning
+10152,Tin Chak Estate,天澤邨,1707,11386,0.149920956,FALSE,non-morning
+10153,Tin Ching Estate,天晴邨,1835,15695,0.116916215,FALSE,non-morning
+20122,Tin Chung Court,天頌苑,2126,17214,0.123504125,FALSE,non-morning
+20123,Tin Fu Court,天富苑,2033,14634,0.138923056,FALSE,non-morning
+10154,Tin Heng Estate,天恒邨,1955,21016,0.093024362,FALSE,non-morning
+10155,Tin King Estate,田景邨,1999,8579,0.23301084,TRUE,morning
+20124,Tin Ma Court,天馬苑,1218,6034,0.201856148,TRUE,morning
+20125,Tin Oi Court,天愛苑,585,3150,0.185714286,FALSE,non-morning
+10156,Tin Ping Estate,天平邨,3549,15206,0.233394713,TRUE,morning
+20126,Tin Shing Court,天盛苑,3309,18900,0.175079365,FALSE,non-morning
+10157,Tin Shui (1) Estate,天瑞（１）邨,2518,13603,0.185106227,FALSE,non-morning
+10158,Tin Shui (2) Estate,天瑞（２）邨,1813,10123,0.179097106,FALSE,non-morning
+10159,Tin Tsz Estate,天慈邨,1646,8494,0.193783847,FALSE,non-morning
+10160,Tin Wah Estate,天華邨,1474,10746,0.137167318,FALSE,non-morning
+10161,Tin Wan Estate,田灣邨,2356,8491,0.277470263,TRUE,morning
+10162,Tin Yan Estate,天恩邨,2216,10572,0.209610291,TRUE,morning
+10163,Tin Yat Estate,天逸邨,1230,11665,0.105443635,FALSE,non-morning
+20128,Tin Yau Court,天祐苑,953,5044,0.188937351,FALSE,non-morning
+10164,Tin Yiu (1) Estate,天耀一邨,2709,12717,0.213021939,TRUE,morning
+10165,Tin Yiu (2) Estate,天耀二邨,1832,11881,0.154195775,FALSE,non-morning
+10166,Tin Yuet Estate,天悅邨,1997,11871,0.168225086,FALSE,non-morning
+40017,Tivoli Garden,宏福花園,408,3381,0.120674357,FALSE,non-morning
+20130,Tong Ming Court,唐明苑,1247,6029,0.206833637,TRUE,morning
+61851,Tseung Kwan O Plaza,將軍澳廣場,774,7977,0.097028958,FALSE,non-morning
+10167,Tsing Yi Estate,青衣邨,2638,8037,0.328231927,TRUE,morning
+61856,Tsing Yi Garden,青怡花園,500,4093,0.122159785,FALSE,non-morning
+61864,Tsuen King Garden,荃景花園,1268,8314,0.152513832,FALSE,non-morning
+61865,Tsuen Tak Gardens,荃德花園,322,2405,0.133887734,FALSE,non-morning
+61866,Tsuen Wan Centre,荃灣中心,1570,10542,0.148928097,FALSE,non-morning
+20131,Tsui Chuk Garden,翠竹花園,2233,10071,0.221725747,TRUE,morning
+20132,Tsui Lai Garden,翠麗花園,939,5445,0.172451791,FALSE,non-morning
+10168,Tsui Lam Estate,翠林邨,3792,13364,0.283747381,TRUE,morning
+20133,Tsui Ning Garden,翠寧花園,1859,5871,0.316641117,TRUE,morning
+10170,Tsui Ping North Estate,翠屏北邨,4053,14060,0.28826458,TRUE,morning
+10171,Tsui Ping South Estate,翠屏南邨,3089,13467,0.229375511,TRUE,morning
+10172,Tsui Wan Estate,翠灣邨,1570,6288,0.249681934,TRUE,morning
+10173,Tsz Ching Estate,慈正邨,5431,21845,0.248615244,TRUE,morning
+10174,Tsz Hong Estate,慈康邨,1009,7079,0.142534256,FALSE,non-morning
+10175,Tsz Lok Estate,慈樂邨,4249,17833,0.238266136,TRUE,morning
+10176,Tsz Man Estate,慈民邨,1266,5936,0.213274933,TRUE,morning
+20134,Tsz Oi Court,慈愛苑,2015,11614,0.173497503,FALSE,non-morning
+61878,Tuen Mun Town Plaza,屯門市廣場,547,4677,0.116955313,FALSE,non-morning
+20136,Tung Chun Court,東駿苑,966,3242,0.29796422,TRUE,morning
+61882,Tung Chung Crescent,東堤灣畔,870,5112,0.170187793,FALSE,non-morning
+20137,Tung Hei Court,東熹苑,1787,6262,0.285372086,TRUE,morning
+20138,Tung Tao Court,東濤苑,685,3506,0.19537935,FALSE,non-morning
+10178,Tung Tau (2) Estate,東頭（２）邨,4253,15440,0.275453368,TRUE,morning
+10215,Tung Wui Estate,東滙邨,1297,5280,0.245643939,TRUE,morning
+20140,Tung Yuk Court,東旭苑,921,5052,0.182304038,FALSE,non-morning
+10179,Un Chau Estate,元州邨,6034,18670,0.323192287,TRUE,morning
+10180,Upper Ngau Tau Kok Estate,牛頭角上邨,4718,15831,0.298022867,TRUE,morning
+10181,Upper Wong Tai Sin Estate,黃大仙上邨,3051,12176,0.250574901,TRUE,morning
+61913,Uptown Plaza,新達廣場,584,2971,0.196566813,FALSE,non-morning
+40018,Verbena Heights,茵怡花園,1564,6431,0.243197014,TRUE,morning
+61925,Vianni Cove,慧景軒,475,2995,0.158597663,FALSE,non-morning
+61941,Villa Athena,雅典居,284,3164,0.089759798,FALSE,non-morning
+61954,Villa Esplanada,灝景灣,1327,8277,0.160323789,FALSE,non-morning
+61979,Vision City,萬景峯,671,4190,0.160143198,FALSE,non-morning
+61984,Vista Paradiso,聽濤雅苑,968,6437,0.150380612,FALSE,non-morning
+10182,Wah Fu (1) Estate,華富（１）邨,3510,12233,0.286928799,TRUE,morning
+10183,Wah Fu (2) Estate,華富（２）邨,3006,12664,0.237365761,TRUE,morning
+10184,Wah Kwai Estate,華貴邨,2362,9321,0.253406287,TRUE,morning
+10185,Wah Lai Estate,華荔邨,795,4041,0.196733482,FALSE,non-morning
+10186,Wah Ming Estate,華明邨,2698,14179,0.190281402,FALSE,non-morning
+10187,Wah Sum Estate,華心邨,905,4344,0.208333333,TRUE,morning
+10189,Wan Tau Tong Estate,運頭塘邨,1443,7039,0.20500071,TRUE,morning
+10190,Wan Tsui Estate,環翠邨,2727,9532,0.286088963,TRUE,morning
+20142,Wang Fuk Court,宏福苑,1701,4643,0.366357958,TRUE,morning
+10191,Wang Tau Hom Estate,橫頭磡邨,4175,16794,0.248600691,TRUE,morning
+62023,Well On Garden,慧安園,342,3091,0.110643805,FALSE,non-morning
+62033,Whampoa Estate,黃埔新邨,1281,6647,0.19271852,FALSE,non-morning
+62034,Whampoa Gardens,黃埔花園,5857,30038,0.194986351,FALSE,non-morning
+10216,Wing Cheong Estate,榮昌邨,546,3620,0.150828729,FALSE,non-morning
+20143,Wing Fai Centre,榮輝中心,632,3755,0.168308921,FALSE,non-morning
+20144,Wing Fok Centre,榮福中心,911,4722,0.192926726,FALSE,non-morning
+10192,Wo Che Estate,禾輋邨,4596,18384,0.25,TRUE,morning
+10193,Wo Lok Estate,和樂邨,1443,4280,0.337149533,TRUE,morning
+20145,Wo Ming Court,和明苑,843,4792,0.175918197,FALSE,non-morning
+62078,Wonderland Villas,華景山莊,984,4446,0.221322537,TRUE,morning
+10194,Wu King Estate,湖景邨,2654,12986,0.204373941,TRUE,morning
+62091,Wyler Gardens,偉恒昌新村,1483,6746,0.219833976,TRUE,morning
+20146,Yan Ming Court,欣明苑,1134,4733,0.239594338,TRUE,morning
+10195,Yan On Estate,欣安邨,877,6348,0.138153749,FALSE,non-morning
+20147,Yan Shing Court,欣盛苑,1151,6661,0.172796877,FALSE,non-morning
+10220,Yan Tin Estate,欣田邨,1128,13203,0.085435128,FALSE,non-morning
+20149,Yat Nga Court,逸雅苑,676,3108,0.217503218,TRUE,morning
+10196,Yat Tung (1) Estate,逸東（１）邨,2821,19161,0.147226136,FALSE,non-morning
+10197,Yat Tung (2) Estate,逸東（２）邨,2388,19093,0.125072016,FALSE,non-morning
+20150,Yau Chui Court,油翠苑,1004,4499,0.223160702,TRUE,morning
+10198,Yau Lai Estate,油麗邨,4525,21799,0.207578329,TRUE,morning
+10199,Yau Oi Estate,友愛邨,6498,24307,0.267330399,TRUE,morning
+10200,Yau Tong Estate,油塘邨,2457,10026,0.245062837,TRUE,morning
+10217,Yee Ming Estate,怡明邨,744,5479,0.135791203,FALSE,non-morning
+20154,Yee Nga Court,怡雅苑,1041,5204,0.200038432,TRUE,morning
+20158,Ying Ming Court,英明苑,1080,4820,0.22406639,TRUE,morning
+10225,Ying Tung Estate,迎東邨,1022,9219,0.110858011,FALSE,non-morning
+10201,Yiu On Estate,耀安邨,3268,12922,0.252902028,TRUE,morning
+10202,Yiu Tung Estate,耀東邨,3648,15061,0.242214992,TRUE,morning
+62122,YOHO Midtown,YOHO Midtown,292,5133,0.056886811,FALSE,non-morning
+62123,YOHO Town,新時代廣場,366,4785,0.076489028,FALSE,non-morning
+20159,Yu Chui Court,愉翠苑,1821,13132,0.1386689,FALSE,non-morning
+20160,Yu Ming Court,裕明苑,779,3491,0.223145231,TRUE,morning
+20161,Yu Tung Court,裕東苑,1534,6848,0.224007009,TRUE,morning
+62192,Yuccie Square,世宙,285,2789,0.102187164,FALSE,non-morning
+20162,Yue Fai Court,漁暉苑,718,3025,0.237355372,TRUE,morning
+30014,Yue Kwong Chuen,漁光村,729,2679,0.272116461,TRUE,morning
+20163,Yue On Court,漁安苑,989,5175,0.191111111,FALSE,non-morning
+20165,Yue Tin Court,愉田苑,1276,4604,0.277150304,TRUE,morning
+10203,Yue Wan Estate,漁灣邨,1426,7998,0.178294574,FALSE,non-morning
+20167,Yuet Wu Villa,悅湖山莊,2413,10760,0.224256506,TRUE,morning
+20168,Yuk Ming Court,煜明苑,917,5090,0.180157171,FALSE,non-morning
+20169,Yuk Po Court,旭埔苑,975,3015,0.323383085,TRUE,morning
+20174,Yung Ming Court,雍明苑,677,3360,0.201488095,TRUE,morning
+10204,Yung Shing Court,雍盛苑,1329,7434,0.178773204,FALSE,non-morning
