@@ -10,6 +10,7 @@ from ortools.constraint_solver import routing_enums_pb2
 from ortools.constraint_solver import pywrapcp
 import requests
 import polyline
+import streamlit.components.v1 as components
 
 # --- 1. PAGE SETUP & BRANDING ---
 st.set_page_config(page_title="ReRoute HK | Spatial Logistics", layout="wide", page_icon="♻️")
@@ -18,7 +19,6 @@ st.title("🚛 ReRoute HK: Predictive Recycling Logistics")
 st.markdown("**Solving Hong Kong's 'First-Mile Problem' using Spatial Data Science, Behavioral Economics, and OSRM Street Routing.**")
 st.markdown("*Advancing UN SDGs 11 (Sustainable Cities) and 12 (Responsible Consumption).*")
 
-# --- NEW EXPANDER ADDED HERE ---
 with st.expander("🔍 Behind the AI: Technical Architecture & Routing Logic"):
     st.markdown("""
     **1. Dynamic Recycling Friction Index (RFI)**
@@ -203,155 +203,129 @@ def solve_routing():
 with st.spinner("AI is calculating optimal routing & dump detours (eta 3s)..."):
     routes, total_time = solve_routing()
 
-# --- 8. RENDER DASHBOARD ---
-col1, col2 = st.columns([2.5, 1.5])
+# --- 8. TABS UI SETUP ---
+tab1, tab2 = st.tabs(["🗺️ Routing AI & Dispatch", "💰 Financial ROI Dashboard"])
 
-if not routes:
-    st.error(f"🚨 Logistics Failure! Increase 'Total Available Trucks' or adjust payload/time constraints to ensure real-world feasibility.")
-else:
-    with col1:
-        m = folium.Map(location=locations[0]["coords"], zoom_start=11, tiles="CartoDB dark_matter")
-        
-        for node_id, info in locations.items():
-            if info["type"] == "Dump":
-                folium.CircleMarker(info["coords"], radius=3, color="gray", fill=True, tooltip=info["name"]).add_to(m)
+# ==========================================
+# TAB 1: THE MAP AND ROUTING MANIFEST
+# ==========================================
+with tab1:
+    col1, col2 = st.columns([2.5, 1.5])
 
-        for node_id, info in locations.items():
-            if info["type"] == "Depot":
-                folium.Marker(info["coords"], popup="AI-Proposed Anchor Hub", icon=folium.Icon(color="green", icon="star")).add_to(m)
-            elif info["type"] == "Spoke":
-                folium.Marker(info["coords"], popup=f"{info['name']}<br>Demographic Window: {info['tag']}", icon=folium.Icon(color="orange", icon="info-sign")).add_to(m)
+    if not routes:
+        st.error(f"🚨 Logistics Failure! Increase 'Total Available Trucks' or adjust payload/time constraints to ensure real-world feasibility.")
+    else:
+        with col1:
+            m = folium.Map(location=locations[0]["coords"], zoom_start=11, tiles="CartoDB dark_matter")
             
-        colors = ["#00FFFF", "#FF00FF", "#FFFF00", "#FF4500", "#39FF14", "#FE019A"]
-        
-        # DRAWING REAL STREET ROUTES WITH DIRECTIONAL ANIMATION
-        with st.spinner("Fetching Real Street Geometry from OSRM..."):
-            for i, (v_id, route) in enumerate(routes.items()):
-                color = colors[i % len(colors)]
+            for node_id, info in locations.items():
+                if info["type"] == "Dump":
+                    folium.CircleMarker(info["coords"], radius=3, color="gray", fill=True, tooltip=info["name"]).add_to(m)
+
+            for node_id, info in locations.items():
+                if info["type"] == "Depot":
+                    folium.Marker(info["coords"], popup="AI-Proposed Anchor Hub", icon=folium.Icon(color="green", icon="star")).add_to(m)
+                elif info["type"] == "Spoke":
+                    folium.Marker(info["coords"], popup=f"{info['name']}<br>Demographic Window: {info['tag']}", icon=folium.Icon(color="orange", icon="info-sign")).add_to(m)
                 
-                full_truck_path = []
-                for step_idx in range(len(route) - 1):
-                    start_node = route[step_idx]["node"]
-                    end_node = route[step_idx + 1]["node"]
+            colors = ["#00FFFF", "#FF00FF", "#FFFF00", "#FF4500", "#39FF14", "#FE019A"]
+            
+            with st.spinner("Fetching Real Street Geometry from OSRM..."):
+                for i, (v_id, route) in enumerate(routes.items()):
+                    color = colors[i % len(colors)]
                     
-                    coord1 = locations[start_node]["coords"]
-                    coord2 = locations[end_node]["coords"]
+                    full_truck_path = []
+                    for step_idx in range(len(route) - 1):
+                        start_node = route[step_idx]["node"]
+                        end_node = route[step_idx + 1]["node"]
+                        
+                        coord1 = locations[start_node]["coords"]
+                        coord2 = locations[end_node]["coords"]
+                        
+                        street_path = get_street_route(coord1, coord2)
+                        full_truck_path.extend(street_path)
                     
-                    street_path = get_street_route(coord1, coord2)
-                    full_truck_path.extend(street_path)
-                
-                plugins.AntPath(
-                    locations=full_truck_path,
-                    color=color,
-                    weight=5,
-                    opacity=0.8,
-                    dash_array=[10, 15],
-                    delay=800,
-                    tooltip=f"Route Direction"
-                ).add_to(m)
-                
+                    plugins.AntPath(
+                        locations=full_truck_path,
+                        color=color,
+                        weight=5,
+                        opacity=0.8,
+                        dash_array=[10, 15],
+                        delay=800,
+                        tooltip=f"Route Direction"
+                    ).add_to(m)
+                    
+                    for step in route:
+                        if locations[step["node"]]["type"] == "Dump":
+                            folium.Marker(locations[step["node"]]["coords"], popup=locations[step["node"]]["name"], icon=folium.Icon(color="blue", icon="trash")).add_to(m)
+            
+            st_folium(m, width=900, height=600)
+
+            st.markdown("""
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; background-color: #262730; padding: 15px; border-radius: 8px; margin-top: -15px; margin-bottom: 20px; border: 1px solid #444;">
+                <div style="display: flex; align-items: center; margin-right: 15px;">
+                    <div style="background-color: #72B026; width: 14px; height: 14px; border-radius: 50%; display: inline-block; margin-right: 8px;"></div>
+                    <span style="color: white; font-size: 14px;"><b>Anchor Hub</b> (Green Pin + ⭐)</span>
+                </div>
+                <div style="display: flex; align-items: center; margin-right: 15px;">
+                    <div style="background-color: #F69730; width: 14px; height: 14px; border-radius: 50%; display: inline-block; margin-right: 8px;"></div>
+                    <span style="color: white; font-size: 14px;"><b>Pop-up Spoke</b> (Orange Pin + ℹ️)</span>
+                </div>
+                <div style="display: flex; align-items: center; margin-right: 15px;">
+                    <div style="background-color: #38AADD; width: 14px; height: 14px; border-radius: 50%; display: inline-block; margin-right: 8px;"></div>
+                    <span style="color: white; font-size: 14px;"><b>Replenishment</b> (Blue Pin + 🗑️)</span>
+                </div>
+                <div style="display: flex; align-items: center; margin-right: 15px;">
+                    <div style="background-color: gray; width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 8px;"></div>
+                    <span style="color: white; font-size: 14px;"><b>Unvisited Station</b> (Grey Dot)</span>
+                </div>
+                <div style="display: flex; align-items: center;">
+                    <div style="background: repeating-linear-gradient(90deg, #00FFFF, #00FFFF 4px, transparent 4px, transparent 8px); width: 24px; height: 4px; display: inline-block; margin-right: 8px;"></div>
+                    <span style="color: white; font-size: 14px;"><b>Dispatch Route</b> (Animated Line)</span>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+        with col2:
+            st.success("✅ **Spatial Street-Level Routing Optimized**")
+            
+            trucks_saved = num_trucks - len(routes)
+            st.metric(
+                label="Optimal Fleet Deployed", 
+                value=f"{len(routes)} Trucks", 
+                delta=f"{trucks_saved} Trucks Saved (Zero Idle Time)", 
+                delta_color="normal"
+            )
+            
+            st.markdown("### 📋 Dispatch Manifest")
+            
+            display_num = 1
+            for v_id, route in routes.items():
+                color_hex = colors[list(routes.keys()).index(v_id) % len(colors)]
+                st.markdown(f"**<span style='color:{color_hex}'>Truck {display_num}</span>**", unsafe_allow_html=True)
                 for step in route:
-                    if locations[step["node"]]["type"] == "Dump":
-                        folium.Marker(locations[step["node"]]["coords"], popup=locations[step["node"]]["name"], icon=folium.Icon(color="blue", icon="trash")).add_to(m)
-        
-        st_folium(m, width=900, height=600)
+                    node_id = step["node"]
+                    loc = locations[node_id]
+                    if loc["type"] == "Depot":
+                        st.markdown(f"- 🟢 **Anchor Hub (Arrive Min {step['time']})**")
+                    elif loc["type"] == "Spoke":
+                        st.markdown(f"- 🟠 **Pop-up (Arrive Min {step['time']}):** {loc['name'].split(':')[-1]} *(Stays {service_time}m)*")
+                    elif loc["type"] == "Dump":
+                        st.markdown(f"- 🔵 **CONTINUOUS REPLENISHMENT (Min {step['time']}):** {loc['name'].split('at')[-1]} *(Takes {unload_time}m)*")
+                st.markdown("---")
+                display_num += 1
 
-        # --- NEW: HORIZONTAL LEGEND UNDER THE MAP ---
-        st.markdown("""
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; background-color: #262730; padding: 15px; border-radius: 8px; margin-top: -15px; margin-bottom: 20px; border: 1px solid #444;">
-            <div style="display: flex; align-items: center; margin-right: 15px;">
-                <div style="background-color: #72B026; width: 14px; height: 14px; border-radius: 50%; display: inline-block; margin-right: 8px;"></div>
-                <span style="color: white; font-size: 14px;"><b>Anchor Hub</b> (Green Pin + ⭐)</span>
-            </div>
-            <div style="display: flex; align-items: center; margin-right: 15px;">
-                <div style="background-color: #F69730; width: 14px; height: 14px; border-radius: 50%; display: inline-block; margin-right: 8px;"></div>
-                <span style="color: white; font-size: 14px;"><b>Pop-up Spoke</b> (Orange Pin + ℹ️)</span>
-            </div>
-            <div style="display: flex; align-items: center; margin-right: 15px;">
-                <div style="background-color: #38AADD; width: 14px; height: 14px; border-radius: 50%; display: inline-block; margin-right: 8px;"></div>
-                <span style="color: white; font-size: 14px;"><b>Replenishment</b> (Blue Pin + 🗑️)</span>
-            </div>
-            <div style="display: flex; align-items: center; margin-right: 15px;">
-                <div style="background-color: gray; width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 8px;"></div>
-                <span style="color: white; font-size: 14px;"><b>Unvisited Station</b> (Grey Dot)</span>
-            </div>
-            <div style="display: flex; align-items: center;">
-                <div style="background: repeating-linear-gradient(90deg, #00FFFF, #00FFFF 4px, transparent 4px, transparent 8px); width: 24px; height: 4px; display: inline-block; margin-right: 8px;"></div>
-                <span style="color: white; font-size: 14px;"><b>Dispatch Route</b> (Animated Line)</span>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-
-        # --- 9. FINANCIAL ROI DASHBOARD ---
-        st.markdown("---")
-        st.markdown("### 💰 Financial & Circular Economy Impact (Monthly)")
+# ==========================================
+# TAB 2: THE FINANCIAL ROI DASHBOARD (HTML)
+# ==========================================
+with tab2:
+    try:
+        # Pulling the newly named custom HTML file
+        with open("roi_dashboard_hackathon_app (1).html", "r", encoding="utf-8") as f:
+            html_content = f.read()
         
-        # Extracted from Team Financial Data
-        FIXED_STATION_OPEX = 150000 
-        TRUCK_OPEX = 30000          
+        # Rendering it inside Streamlit
+        components.html(html_content, height=1300, scrolling=True)
         
-        deployed_trucks = len(routes)
-        traditional_cost = num_hubs * FIXED_STATION_OPEX
-        hybrid_cost = (1 * FIXED_STATION_OPEX) + (deployed_trucks * TRUCK_OPEX)
-        
-        monthly_savings = traditional_cost - hybrid_cost
-        annual_savings = monthly_savings * 12
-        commodity_recovery = 500000 
-        
-        fin_col1, fin_col2 = st.columns(2)
-        
-        with fin_col1:
-            st.metric(
-                label="Traditional Model (Static Infrastructure)", 
-                value=f"HK$ {traditional_cost:,}/mo",
-                help=f"Cost of building {num_hubs} Fixed Premium Stations."
-            )
-            st.metric(
-                label="ReRoute HK Hybrid Model (Dynamic Deployment)", 
-                value=f"HK$ {hybrid_cost:,}/mo",
-                delta=f"- HK$ {monthly_savings:,} saved/mo",
-                delta_color="inverse", 
-                help=f"Cost of 1 Fixed Anchor Hub + {deployed_trucks} Mobile Trucks."
-            )
-            
-        with fin_col2:
-            st.metric(
-                label="Projected Annual Taxpayer Savings", 
-                value=f"HK$ {annual_savings:,}/yr",
-                delta="Massive CapEx/OpEx Reduction"
-            )
-            st.metric(
-                label="Recovered Commodity Value (SDG 12)", 
-                value=f"+ HK$ {commodity_recovery:,}/mo",
-                delta="Recouped 52% Behavioral Friction Loss",
-                help="Based on market rates for Paper, Plastic, and Metal recovered by targeting first-mile friction."
-            )
-
-    with col2:
-        st.success("✅ **Spatial Street-Level Routing Optimized**")
-        
-        trucks_saved = num_trucks - len(routes)
-        st.metric(
-            label="Optimal Fleet Deployed", 
-            value=f"{len(routes)} Trucks", 
-            delta=f"{trucks_saved} Trucks Saved (Zero Idle Time)", 
-            delta_color="normal"
-        )
-        
-        st.markdown("### 📋 Dispatch Manifest")
-        
-        display_num = 1
-        for v_id, route in routes.items():
-            color_hex = colors[list(routes.keys()).index(v_id) % len(colors)]
-            st.markdown(f"**<span style='color:{color_hex}'>Truck {display_num}</span>**", unsafe_allow_html=True)
-            for step in route:
-                node_id = step["node"]
-                loc = locations[node_id]
-                if loc["type"] == "Depot":
-                    st.markdown(f"- 🟢 **Anchor Hub (Arrive Min {step['time']})**")
-                elif loc["type"] == "Spoke":
-                    st.markdown(f"- 🟠 **Pop-up (Arrive Min {step['time']}):** {loc['name'].split(':')[-1]} *(Stays {service_time}m)*")
-                elif loc["type"] == "Dump":
-                    st.markdown(f"- 🔵 **CONTINUOUS REPLENISHMENT (Min {step['time']}):** {loc['name'].split('at')[-1]} *(Takes {unload_time}m)*")
-            st.markdown("---")
-            display_num += 1
+    except FileNotFoundError:
+        st.error("⚠️ `roi_dashboard_hackathon_app (1).html` not found. Please ensure the file is saved in the exact same folder as `app.py`.")
